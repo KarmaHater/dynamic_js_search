@@ -2,6 +2,12 @@ body {
   background: #DAD7C7
 }
 
+.image-box {
+  overflow: hidden;
+  height: 130px;
+  margin-bottom: 5px;
+}
+
 img {
   width: 60%;
   float: left;
@@ -21,18 +27,14 @@ img {
 #searcharea label {
   font: bold 1.3em Arial;
   text-transform: uppercase;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   color: #A61C1C;
 }
 
-#searcharea p {
-  margin: 0;
-  line-height: 1em;
-  padding-bottom: 5px;
-}
-
-#searcharea input {
+input#search {
   width: 80%;
+  height: 30px;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -63,8 +65,9 @@ img {
 
 #update li:hover {
   background: #FFFCE5;
-  min-height: 110px;
-  height: 165px;
+  height: auto;
+  /*min-height: 110px;*/
+  /*max-height: 350px;*/
   overflow: visible;
 }
 

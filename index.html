@@ -7,7 +7,7 @@
 <body>
   <article id="searcharea">
     <label for="search">Search for User</label>
-    <input type="search" name="search" id="search">
+    <input type="text" name="search" id="search">
   </article>
 
   <article id="update">
@@ -22,7 +22,9 @@
 <script src="main.js"></script>
 <script id="search-results-temp" type="text/x-handlebars-template">
   <li class="entry">
+  <div class="image-box">
     <img src={{img}} alt="">
+  <div>
     <h2>{{name}}</h2>
     <div class="body">
       {{address}}
