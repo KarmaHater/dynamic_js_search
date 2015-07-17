@@ -3,7 +3,9 @@ body {
 }
 
 img {
-  width: 100%;
+  width: 60%;
+  float: left;
+  margin-right: 10px;
   padding-top: 20px;
 }
 
@@ -31,7 +33,6 @@ img {
 
 #searcharea input {
   width: 80%;
-  height: 30px;
   text-align: center;
 }
 
@@ -53,17 +54,39 @@ img {
   padding: 0 20px;
   background: #EEE;
   padding-bottom: 10px;
-  height: 110px;
+  height: 87px;
   overflow: hidden;
   border: 1px dotted #CCC;
+  -webkit-animation: fadein 1s;
+  animation: fadein 1s;;
 }
 
 #update li:hover {
   background: #FFFCE5;
   min-height: 110px;
-  height: 325px;
+  height: 165px;
   overflow: visible;
 }
 
+#update h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  font-family: Arial;
+  color: #BF5841;
+  margin-bottom: 10px;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0.3;}
+  100% {opacity: 1.0;}
+}
+
+@keyframes fadein {
+  0% { opacity: 0.3;}
+  100% {opacity: 1.0;}
+}
 
 
