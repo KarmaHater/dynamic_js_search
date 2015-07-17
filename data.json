@@ -1,26 +1,26 @@
 [
   { "name": "Andra Lally",
     "address" : "some bio about this person above. Something interesting.",
-    "img": "http://lorempixel.com/300/200/fashion/1"
+    "img": "http://lorempixel.com/500/200/fashion/1"
   },
   { "name": "Sam Pills",
     "address" : "some bio about this person above. Something interesting.",
-    "img": "http://lorempixel.com/300/200/fashion/2"
+    "img": "http://lorempixel.com/500/200/fashion/2"
   },
   { "name": "Mark Smith",
     "address" : "some bio about this person above. Something interesting.",
-    "img": "http://lorempixel.com/300/200/fashion/3"
+    "img": "http://lorempixel.com/500/200/fashion/3"
   },
   { "name": "Harry Lulls",
     "address" : "some bio about this person above. Something interesting.",
-    "img": "http://lorempixel.com/300/200/fashion/4"
+    "img": "http://lorempixel.com/500/200/fashion/4"
   },
   { "name": "Heth Breg",
     "address" : "some bio about this person above. Something interesting.",
-    "img": "http://lorempixel.com/300/200/fashion/5"
+    "img": "http://lorempixel.com/500/200/fashion/5"
   },
   { "name": "Kathy Ponder",
     "address" : "some bio about this person above. Something interesting.",
-    "img": "http://lorempixel.com/300/200/fashion/6"
+    "img": "http://lorempixel.com/500/200/fashion/6"
   }
 ]

@@ -5,22 +5,28 @@
   <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-  <label for="search">Search for User</label>
-  <input type="search" name="search" id="search">
+  <article id="searcharea">
+    <label for="search">Search for User</label>
+    <input type="search" name="search" id="search">
+  </article>
 
-  <article id="search-results"></article>
+  <article id="update">
+    <ul id="search-results">
+      
+    </ul>
+  </article>
   
 </body>
 <script src="vendor/jquery-1.11.3.min.js"></script>
 <script src="vendor/handlebars-v3.0.3.js"></script>
 <script src="main.js"></script>
 <script id="search-results-temp" type="text/x-handlebars-template">
-  <div class="entry">
+  <li class="entry">
     <img src={{img}} alt="">
     <h1>{{name}}</h1>
     <div class="body">
       {{address}}
     </div>
-  </div>
+  </li>
 </script>
 </html>
