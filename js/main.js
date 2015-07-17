@@ -1,4 +1,3 @@
- var data =
 $(document).ready(function(){
 
   function Search (){

@@ -4,12 +4,12 @@ body {
 
 .image-box {
   overflow: hidden;
-  height: 130px;
+  height: 160px;
   margin-bottom: 5px;
 }
 
 img {
-  width: 60%;
+  width: 65%;
   float: left;
   margin-right: 10px;
   padding-top: 20px;
@@ -66,8 +66,7 @@ input#search {
 #update li:hover {
   background: #FFFCE5;
   height: auto;
-  /*min-height: 110px;*/
-  /*max-height: 350px;*/
+  min-height: 160px;
   overflow: visible;
 }
 
